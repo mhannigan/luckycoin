@@ -1,0 +1,26 @@
+[Unit]
+Description=LUK's distributed currency daemon
+After=network.target
+
+[Service]
+User=luckycoin
+Group=luckycoin
+
+Type=forking
+PIDFile=/var/lib/luckycoind/luckycoind.pid
+
+ExecStart=/usr/bin/luckycoind -daemon -pid=/var/lib/luckycoind/luckycoind.pid \
+          -conf=/etc/luckycoin/luckycoin.conf -datadir=/var/lib/luckycoind
+
+ExecStop=-/usr/bin/luckycoin-cli -conf=/etc/luckycoin/luckycoin.conf \
+         -datadir=/var/lib/luckycoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

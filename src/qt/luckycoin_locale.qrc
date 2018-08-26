@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/luckycoin_bg.qm</file>
+        <file alias="ca">locale/luckycoin_ca.qm</file>
+        <file alias="cs">locale/luckycoin_cs.qm</file>
+        <file alias="da">locale/luckycoin_da.qm</file>
+        <file alias="de">locale/luckycoin_de.qm</file>
+        <file alias="en">locale/luckycoin_en.qm</file>
+        <file alias="en_US">locale/luckycoin_en_US.qm</file>
+        <file alias="eo">locale/luckycoin_eo.qm</file>
+        <file alias="es">locale/luckycoin_es.qm</file>
+        <file alias="es_ES">locale/luckycoin_es_ES.qm</file>
+        <file alias="fi">locale/luckycoin_fi.qm</file>
+        <file alias="fr_FR">locale/luckycoin_fr_FR.qm</file>
+        <file alias="hi_IN">locale/luckycoin_hi_IN.qm</file>
+        <file alias="hr">locale/luckycoin_hr.qm</file>
+        <file alias="hr_HR">locale/luckycoin_hr_HR.qm</file>
+        <file alias="it">locale/luckycoin_it.qm</file>
+        <file alias="ja">locale/luckycoin_ja.qm</file>
+        <file alias="ko_KR">locale/luckycoin_ko_KR.qm</file>
+        <file alias="lt_LT">locale/luckycoin_lt_LT.qm</file>
+        <file alias="nl">locale/luckycoin_nl.qm</file>
+        <file alias="pl">locale/luckycoin_pl.qm</file>
+        <file alias="pt">locale/luckycoin_pt.qm</file>
+        <file alias="pt_BR">locale/luckycoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/luckycoin_ro_RO.qm</file>
+        <file alias="ru">locale/luckycoin_ru.qm</file>
+        <file alias="sk">locale/luckycoin_sk.qm</file>
+        <file alias="sv">locale/luckycoin_sv.qm</file>
+        <file alias="tr">locale/luckycoin_tr.qm</file>
+        <file alias="uk">locale/luckycoin_uk.qm</file>
+        <file alias="vi">locale/luckycoin_vi.qm</file>
+        <file alias="zh_CN">locale/luckycoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/luckycoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

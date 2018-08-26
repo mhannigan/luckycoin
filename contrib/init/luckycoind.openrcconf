@@ -1,0 +1,26 @@
+# /etc/conf.d/luckycoind: config file for /etc/init.d/luckycoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/luckycoin/luckycoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/luckycoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/luckycoind.pid"
+
+# Where to write luckycoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/luckycoind"
+
+# User and group to own luckycoind process
+#BITCOIND_USER="luckycoin"
+#BITCOIND_GROUP="luckycoin"
+
+# Path to luckycoind executable
+#BITCOIND_BIN="/usr/bin/luckycoind"
+
+# Nice value to run luckycoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
